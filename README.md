@@ -1,5 +1,3 @@
-Creating a Markdown document for a Ride Matching Service involves outlining the service's key features, API endpoints, data models, and any additional information relevant to understanding and using the service. Below is a template that you can customize based on the specific details of your Ride Matching Service.
-
 # Ride Matching Service Documentation
 
 ## Overview
@@ -43,7 +41,7 @@ The Ride Matching Service connects riders with drivers, facilitating quick and e
 
 ### Update Driver Status
 
-- **PATCH** `/api/drivers/{driverId}/status`
+- **POST** `/api/drivers/{driverId}`
 
   Updates the current status of a driver.
 
